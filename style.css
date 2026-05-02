@@ -1,0 +1,99 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  background: #0f172a;
+  color: #e2e8f0;
+}
+
+.app {
+  max-width: 900px;
+  margin: auto;
+  padding: 40px 20px;
+  text-align: center;
+}
+
+header h1 {
+  font-size: 2.5rem;
+  color: #38bdf8;
+}
+
+header p {
+  margin-top: 10px;
+  color: #94a3b8;
+}
+
+.search-box {
+  margin: 30px 0;
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.search-box input {
+  padding: 12px;
+  width: 250px;
+  border-radius: 8px;
+  border: none;
+}
+
+.search-box button {
+  padding: 12px 18px;
+  border-radius: 8px;
+  border: none;
+  background: #38bdf8;
+  color: black;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.search-box button:hover {
+  background: #0ea5e9;
+}
+
+.search-box button:active {
+  transform: scale(0.95);
+}
+
+.card {
+  background: #1e293b;
+  margin-top: 20px;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 10px 25px rgba(0,0,0,0.3);
+  transition: 0.2s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.profile-img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 15px;
+}
+
+.hidden {
+  display: none;
+}
+
+#repos div {
+  margin: 10px 0;
+  text-align: left;
+}
+
+#loading {
+  margin-top: 10px;
+  color: #38bdf8;
+}

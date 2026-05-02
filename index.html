@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>CodeScope by Parth</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+
+<body>
+
+  <div class="app">
+
+    <header>
+      <h1>CodeScope 🚀</h1>
+      <p>Built by Parth • Analyze GitHub Profiles Smartly</p>
+    </header>
+
+    <div class="search-box">
+      <input type="text" id="username" placeholder="Enter GitHub username...">
+      <button id="searchBtn">Search</button>
+    </div>
+
+    <p id="loading" class="hidden">Loading...</p>
+
+    <div id="profile" class="card hidden"></div>
+
+    <div id="repos" class="card hidden"></div>
+
+    <div id="chartCard" class="card hidden">
+      <h3>Language Usage</h3>
+      <canvas id="chart"></canvas>
+    </div>
+
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
